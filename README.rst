@@ -1,23 +1,22 @@
 
-CID - FutoIn Continuous Integration & Delivery Tool
+CIDtk - FutoIn Continuous Integration & Delivery Toolkit
 ==============================================================================
 
-Intro
------
+The CIDtk (cee-dee-tik? cid-tee-kay? DevKit.) is a response to a need for a 
+method of stringing together technologies used in [DevOps](), 
+[Continuous Integration](), and [Deployment]() into a clean, reproducable, 
+configurable, extensible toolkit aimed at specific workflows. Much like
+scripting simple commands into a functional application with just bash.
 
-There are many continuous integration & delivery tools, but they are primarily
-targeted at own infrastructure. The demand for a new meta-tool is to merge
-many operations of different technologies like npm, composer, bundler, nvm,
-rvm, php-build and others under a single tool for runtime setup, project
-development, build, deployment and running.
+Components
+===
 
-*NOTE: current focus is on web projects, but other types are supported as well.*
+* [composer]()
+* [bundler]()
+* [nvm]()
+* [rvm]()
 
-Full theoretical details are defined as FutoIn Spec FTN16 available at:
-https://github.com/futoin/specs/blob/master/draft/ftn16_cid_tool.md
-
-Features
-~~~~~~~~
+### TODO: Build support for the rest of the crisistextline tool chain.
 
 * Single tool for development, testing and production
 * Intelligent automation of human-like behavior
